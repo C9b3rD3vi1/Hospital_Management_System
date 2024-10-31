@@ -25,12 +25,13 @@ SECRET_KEY = 'kyo3zp1q6x)=p=@1s=yzx)e88(5seb(m_p3@15#7g)anazl!as'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
 
 
 # Application definition
 
-INSTALLED_APPS = [
+INSTALLED_APPS = ['*']
+'''
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +43,8 @@ INSTALLED_APPS = [
     'DOCTER',
     #'https://cess-hospital-one-b6ahhcg2c9fehud8.canadacentral-01.azurewebsites.net'
 ]
+
+'''
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
