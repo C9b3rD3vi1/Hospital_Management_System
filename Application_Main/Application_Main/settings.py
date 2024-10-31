@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'COMMON_APP',
     'PATIENT',
-    'DOCTER'
+    'DOCTER',
+    #'https://cess-hospital-one-b6ahhcg2c9fehud8.canadacentral-01.azurewebsites.net'
 ]
 
 MIDDLEWARE = [
