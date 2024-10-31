@@ -5,6 +5,7 @@ from COMMON_APP.models import *
 # Create your models here.
 from django.contrib.auth.models import User
 
+
 # Create your models here.
 class Docter(models.Model):
 	name = models.CharField(max_length=40)
